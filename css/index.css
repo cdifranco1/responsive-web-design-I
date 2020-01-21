@@ -311,6 +311,18 @@ body {
 	 display: none;
  }
 
+ .bottom-section {
+	 flex-direction: column;
+ }
+
+ .bottom-section img {
+	 display: none;
+ }
+ 
+ .bottom-section section {
+	 width: 100%;
+ }
+
 @media (max-width: 500px) {
 	header {
 		height: 45vh;
@@ -367,4 +379,6 @@ body {
 		width: 100%;
 		padding: 5%;
 	}
+
+
 };
